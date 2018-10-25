@@ -6,4 +6,8 @@ class Puppy
     @breed = breed
     @age = age
   end
+
+  def self.name
+    @name
+  end
 end
